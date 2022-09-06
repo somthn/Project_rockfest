@@ -1,0 +1,162 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Ticket</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/buy-ticket.css">
+    <link rel="stylesheet" href="../Information/ticket.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/72abfc0f46.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&amp;family=Nanum+Gothic:wght@400;800&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <script> AOS.init();</script>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <div class="nav-text-logo"><a href="../index.html">CHANGWON<br>ROCK FESTIVAL</a></div>
+                <div class="navbar">
+                    <ul class="uls">
+                        <li id="num1">
+                            <a href="../index.html">HOME</a>
+                        </li>
+                        <li id="num2">
+                            <a href="#">INFORMATION</a>
+                            <ul class="submenu">
+                                <li><a href="./Introduce.html">Introduce</a></li>
+                                <li><a href="./Line-Up.html">Line-Up</a></li>
+                                <li><a href="./Buy-Ticket.html">Buy Ticket</a></li>
+                                <li><a href="./Location.html">Location</a></li>
+                                <li><a href="./Sponsor.html">Sponsor</a></li>
+                            </ul>
+                        </li>
+                        <li id="num3">
+                            <a href="#">PROGRAM</a>
+                            <ul class="submenu">
+                                <li>Timetable</li>
+                            </ul>
+                        </li>
+                        <li id="num4">
+                            <a href="#">COMMUNITY</a>
+                            <ul class="submenu">
+                                <li><a href="../Community/Notice.html">Notice</a></li>
+                                <li><a href="../Community/News.html">News</a></li>
+                                <li><a href="../Community/Gallery.html">Gallery</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="section1-1">
+        <div class="container">
+            <div class="main-text">
+            </div>
+        </div>
+    </div>
+    <div class="section2-1">
+        <div class="container">
+            <div class="allWrap">
+                <div class="tabBox">
+                    <p class="tab-link current" data-tab="tab-1">
+                        <span>
+                            <img src="">
+                        </span> <a href="../Information/Introduce.html">Introduce</a>
+                    </p>
+                    <p class="tab-link" data-tab="tab-2">
+                        <span>
+                            <img src="">
+                        </span> <a href="../Information/Line-Up.html">Line-Up</a>
+                    </p>
+                    <p class="tab-link" data-tab="tab-3">
+                        <span>
+                            <img src="">
+                        </span> <a href="../Information/Buy-Ticket.html">Buy Ticket</a>
+                    </p>
+                    <p class="tab-link" data-tab="tab-4">
+                        <span>
+                            <img src="">
+                        </span> <a href="../Information/Location.html">Location</a>
+                    </p>
+                    <p class="tab-link" data-tab="tab-5">
+                        <span>
+                            <img src="">
+                        </span><a href="../Information/Sponsor.html">Sponsor</a>
+                    </p>
+                </div>
+                <div id="tab-1" class="tab-content"></div>
+                <div id="tab-2" class="tab-content">Line-Up</div>
+                <div id="tab-3" class="tab-content current">
+                    <div class="tab-h3">
+                        <h3>BUY TICKET</h3>
+                    </div>
+                    <!--ticket-->
+                    <div class="t-body">
+                        <h1 class="t-h1">CHOOSE YOUR TICKET</h1>
+                        <p>원하는 날짜를 선택해 주세요</p>     
+                        <section class="t-main">
+                          <div class="t-wrap wrap--1">
+                            <div class="t-container container--1">
+                                <p>1 DAY<br>09/23<br>Fri.</p>
+                            </div>
+                          </div>
+                          <div class="t-wrap wrap--2">
+                            <div class="t-container container--2">
+                                <p>2 DAY<br>09/24<br>Sat.</p>
+                            </div>
+                          </div>
+                          <div class="t-wrap wrap--3">
+                            <div class="t-container container--3">
+                                <p>3 DAY<br>09/25<br>Sun.</p>
+                            </div>
+                          </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="background-color: #0a1035;">
+        <div class="containter">
+            <div class="footer-box">
+                <div class="footer1">
+                    <h3>2022 CHANGWON<br>ROCK FESTIVAL</h3>
+                    <p>2022. 9. 23 Fri. - 25 Sun.</p>
+                    <br>
+                    <p>&copy; since 2022</p>
+                </div>
+                <div class="footer2">
+                    <h3>CONTACT</h3>
+                    <p>문의전화<br>1500-1666</p>
+                    <p>창원락페스티벌 소식 받기🔻</p>
+                    <form action="#">
+                        <input class="inputbox" name="email" placeholder=" 이메일을 입력하세요." required>
+                        <button type="button" class="email-submit" onclick="alert('이메일 입력이 완료되었습니다. 창원 락 페스티벌의 소식을 받아보실 수 있습니다.')">전송</button>
+                    </form>
+                </div>
+                <div class="footer3">
+                    <h3>SNS</h3>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <script src="../js/nav.js"></script>
+    <script src="../js/tab.js"></script>
+    <script src="../js/page.js"></script>
+    <script src="../js/ticket.js"></script>
+
+</body>
+
+</html>
