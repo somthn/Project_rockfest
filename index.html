@@ -1,210 +1,333 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,viewport-fit=cover,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-        <title>2022 CHANGWON ROCK FESTIVAL</title>
-        <script src="instagram.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://kit.fontawesome.com/2e5f69190c.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css" />
-        <link href="/project/css/auto-carousel.css">
-        <link rel="stylesheet" href="./css/rolling.css">
-        <link rel="stylesheet" href="./css/rolling2.css">
-        <script></script>
-    </head>
-    <body>
-        <!-- 제이쿼리 불러오기 -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- owl 캐러셀 불러오기 -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
-        <!-- 폰트어썸 불러오기 -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <div class="container">
-            <div class="header">
-                <nav>
-                    <div class="nav-text-logo">CHANGWON<br>ROCK FESTIVAL</div>
-                    <div class="navbar">
-                        <ul class="uls">
-                            <li id="num1">
-                                <a href="#">HOME</a>
-                            </li>
-                            <li id="num2">
-                                <a href="#">INFORMATION</a>
-                                <ul class="submenu">
-                                    <li><a href="./Information/Introduce.html">Introduce</a></li>
-                                    <li><a href="./Information/Line-Up.html">Line-Up</a></li>
-                                    <li><a href="./Information/Buy-Ticket.html">Buy Ticket</a></li>
-                                    <li><a href="./Information/Location.html">Location</a></li>
-                                    <li><a href="./Information/Sponsor.html">Sponsor</a></li>
-                                </ul>
-                            </li>
-                            <li id="num3">
-                                <a href="#">PROGRAM</a>
-                                <ul class="submenu">
-                                    <li><a href="./Program/Timetable.html">Timetable</a></li>    
-                                </ul>
-                            </li>
-                            <li id="num4">
-                                <a href="#">COMMUNITY</a>
-                                <ul class="submenu">
-                                    <li><a href="/project/Community/Notice.html">Notice</a></li>
-                                    <li><a href="/project/Community/News.html">News</a></li>
-                                    <li><a href="/project/Community/Gallery.html">Gallery</a></li>
-                                </ul>
-                            </li>
-                        </ul>       
-                    </div>
-                </nav>    
-            </div>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,viewport-fit=cover,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <title>창원 락 페스티벌</title>
+    <script
+      src="https://kit.fontawesome.com/2e5f69190c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Nanum+Gothic:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./css/rolling.css" />
+    <link rel="stylesheet" href="./css/rolling2.css" />
+    <!-- 폰트어썸 불러오기 -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <!-- owl 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"
+    />
+    <div class="container">
+      <div class="header">
+        <nav>
+          <div class="nav-text-logo">CHANGWON<br />ROCK FESTIVAL</div>
+          <div class="navbar">
+            <ul class="uls">
+              <li id="num1">
+                <a href="#">HOME</a>
+              </li>
+              <li id="num2">
+                <a href="./Information/Introduce.html">INFORMATION</a>
+                <ul class="submenu">
+                  <li>
+                    <a href="./Information/Introduce.html#tab-1">Introduce</a>
+                  </li>
+                  <li>
+                    <a href="./Information/Introduce.html#tab-2">Line-Up</a>
+                  </li>
+                  <li>
+                    <a href="./Information/Introduce.html#tab-3">Buy Ticket</a>
+                  </li>
+                  <li>
+                    <a href="./Information/Introduce.html#tab-4">Location</a>
+                  </li>
+                  <li>
+                    <a href="./Information/Introduce.html#tab-5">Sponsor</a>
+                  </li>
+                </ul>
+              </li>
+              <li id="num3">
+                <a href="#">PROGRAM</a>
+                <ul class="submenu">
+                  <li><a href="./Program/Timetable.html">Timetable</a></li>
+                </ul>
+              </li>
+              <li id="num4">
+                <a href="./Community/Community.html">COMMUNITY</a>
+                <ul class="submenu">
+                  <li><a href="./Community/Community.html#tab-1">Gallery</a></li>
+                  <li><a href="./Community/Community.html#tab-2">News</a></li>
+                  <li>
+                    <a href="./Community/Community.html#tab-3">Notice</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="section1" id="color-change">
+      <div class="container">
+        <div class="main-text">
+          <h1>2022 CHANGWON<br />ROCK FESTIVAL</h1>
+          <p>짜릿한 함성! 뜨거운 열기!</p>
+          <p>2022년 화려하게 탄생한 창원락페스티벌 속으로 들어가 보자!</p>
         </div>
-        <div class="section1" id="color-change">
-            <div class="container">
-                <div class="main-text">
-                    <h1>2022 CHANGWON<br>ROCK FESTIVAL</h1>
-                    <p>짜릿한 함성! 뜨거운 열기!</p>
-                    <p>2022년 화려하게 탄생한 창원락페스티벌 속으로 들어가 보자!</p>
-                </div>
-                <div class="main-btn">
-                    <button class="info-button" style="cursor: pointer;"><a href="./Information/Introduce.html">INFORMATION →</a></button>
-                    <button class="info-button" style="cursor: pointer;"><a href="./Information/Buy-Ticket.html">BUY TICKET →</a></button>
-                </div>
-            </div>
+        <div class="main-btn">
+        <a href="./Information/Introduce.html" class="info-button" style="cursor: pointer">
+            INFORMATION →
+        </a>
+        <a href="./Information/Buy-Ticket.html" class="info-button" style="cursor: pointer">
+            BUY TICKET →
+        </a>
         </div>
-        <div class="section2">
-            <!-- <div class="line">
+      </div>
+    </div>
+    <div class="section2">
+      <!-- <div class="line">
                 <span></span>
             </div> -->
-            <div class="container">
-                <div class="main-LineUp">
-                    <p>Artist Line-up</p>
-                </div>
-                <div class="carousel-1" data-carousel-1-autoplay-status="Y">
-                    <ul class="owl-carousel owl-theme">
-                        <li class="item" style="background-image:url(../img/Line-up/the\ volunteers.png);"><p class="caption">The Volunteers</p></li>
-                        <li class="item" style="background-image:url(../img/Line-up/jaurim.jpg);"><p class="caption">자우림</p></li>
-                        <li class="item" style="background-image:url(../img/Line-up/dya6.jpg);"><p class="caption">DAY6</p></li>
-                        <li class="item" style="background-image:url(../img/Line-up/BIBI.jpg);"><p class="caption">BIBI</p></li>
-                        <li class="item" style="background-image:url(../img/Line-up/Nell.jpg);"><p class="caption">NELL</p></li>
-                        <li class="item" style="background-image:url(../img/Line-up/jan.jpg);"><p class="caption">JANNABI</p></li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="main-LineUp">
+          <p>Artist Line-up</p>
         </div>
-        <!-- 섹션3 -->
-        <div class="section3">
-            <div class="container">
-                <div class="main-LineUp">
-                    <p>Community</p>
-                </div>
-                <div class="sec3-box">
-                    <div class="main-Gallery">
-                        <div class="gallery1">
-                            <img src="../img/Gallery/audience1.jpg" id="main-img5" style="max-width: 350px;">
-                            <img src="../img/Gallery/audience2.jpg" id="main-img6" style="max-width: 350px;">
-                            <img src="../img/Gallery/Gallery3.jpg" id="main-img6" style="max-width: 350px;">
-                        </div>
-                        <div class="gallery2">    
-                            <img src="../img/Gallery/Gallery1.jpg" id="main-img7" style="max-width: 350px;">
-                            <img src="../img/Gallery/Gallery2.jpg" id="main-img8" style="max-width: 350px;">
-                            <img src="../img/Gallery/Gallery5.jpg" id="main-img6" style="max-width: 350px;">
-                        </div>   
-                        <div class="gallery1">
-                            <img src="../img/Gallery/audience1.jpg" id="main-img5" style="max-width: 350px;">
-                            <img src="../img/Gallery/audience2.jpg" id="main-img6" style="max-width: 350px;">
-                            <img src="../img/Gallery/Gallery4.jpg" id="main-img6" style="max-width: 350px;">
-                        </div> 
-                    </div>
-                    <div class="rolling">
-                        <div class="rollingbanner">
-                            <div class="wrap">
-                                <div class="banner-title">Notice</div>
-                                <ul>
-                                    <li class="current"><a href="#">창원락페스티벌2022 티켓 예매 상세 안내</a></li>
-                                    <li class="next"><a href="#">창원락페스티벌2022 티켓 예매 일정 안내</a></li>
-                                    <li><a href="#">창원락페스티벌2022 통합 FAQ</a></li>
-                                    <li><a href="#">페스티벌 SNS 인증샷 이벤트 안내</a></li>
-                                    <li class="prev"><a href="#">창원락페스티벌2022 무대 참가자를 모집합니다.</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="rollingbanner2">
-                            <div class="banner-title"></div>
-                            <div class="wrap">
-                                <div class="banner-title">News</div>
-                                <ul>
-                                    <li class="current2"><a href="#">창원락페스티벌2022 티켓 완판!</a></li>
-                                    <li class="next2"><a href="#">창원시가 주관하는 음악 축제, 창원락페스티벌2022</a></li>
-                                    <li><a href="#">창원락페스티벌2022, 어떻게 될까</a></li>
-                                    <li><a href="#">한국을 넘어 세계로...창원락페스티벌의 미래</a></li>
-                                    <li class="prev2"><a href="#">[창원락페스티벌2022] 백예린 밴드 The Volunteers 최종 라인업 합류</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="carousel-1" data-carousel-1-autoplay-status="Y">
+          <ul class="owl-carousel owl-theme">
+            <li
+              class="item"
+              style="background-image: url(./img/Line-up/the_volunteers.png)"
+            >
+              <p class="caption">The Volunteers</p>
+            </li>
+            <li
+              class="item"
+              style="background-image: url(./img/Line-up/jaurim.jpg)"
+            >
+              <p class="caption">자우림</p>
+            </li>
+            <li
+              class="item"
+              style="background-image: url(./img/Line-up/dya6.jpg)"
+            >
+              <p class="caption">DAY6</p>
+            </li>
+            <li
+              class="item"
+              style="background-image: url(./img/Line-up/BIBI.jpg)"
+            >
+              <p class="caption">BIBI</p>
+            </li>
+            <li
+              class="item"
+              style="background-image: url(./img/Line-up/Nell.jpg)"
+            >
+              <p class="caption">NELL</p>
+            </li>
+            <li
+              class="item"
+              style="background-image: url(./img/Line-up/jan.jpg)"
+            >
+              <p class="caption">JANNABI</p>
+            </li>
+          </ul>
         </div>
-        <div class="footer" style="background-color: #0a1035;">
-            <div class="containter">
-                <div class="footer-box">
-                    <div class="footer1">
-                        <h3>2022 CHANGWON<br>ROCK FESTIVAL</h3>
-                        <p>2022. 9. 23 Fri. - 25 Sun.</p>
-                        <br>
-                        <p>&copy; since 2022</p>
-                    </div>
-                    <div class="footer2">
-                        <h3>CONTACT</h3>
-                        <p>문의전화<br>1500-1666</p>
-                        <p>창원락페스티벌 소식 받기🔻</p>
-                        <form action="#">
-                            <input class="inputbox" name="email" placeholder=" 이메일을 입력하세요." required>
-                            <button type="button" class="email-submit" onclick="clickFunc();">전송</button>
-                        </form>
-                    </div>
-                    <div class="footer3">
-                        <h3>SNS</h3>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    </div>
-                </div>    
-            </div>
+      </div>
+    </div>
+    <!-- 섹션3 -->
+    <div class="section3">
+      <div class="container">
+        <div class="main-LineUp">
+          <p>Community</p>
         </div>
-        <script>
-            $(window).scroll(function(){
-                if($(this).scrollTop() > 200){
-                    $('.top').fadeIn();
-                } else {
-                    $('.top').fadeOut();
-                }
-            });
-
-            $('top').click(function(){
-                $('html, body').animate({scrollTop : 0}, 400);
-                return false;
-            });
-        </script>
-        <script>
-            document.getElementsByClassName('email').addEventListener('click', clickFunc)
-            function clickFunc(){
-                let email = document.getElementsByName("email")[0].value;
-                    if(email===""){
-                        alert('이메일을 입력해주세요.');
-                    } else {
-                        alert('이메일 입력이 완료되었습니다. 창원 락 페스티벌의 소식을 받아보실 수 있습니다.');
-                    }
-                }
-        </script>
-        <script src="../project/Community/Gallery.html"></script>
-        <script src="./js/nav.js"></script>
-        <script src="./js/index_slide.js"></script>
-        <script src="./js/page.js"></script>
-        <script src="./js/rolling.js"></script>
-        <script src="./js/rolling2.js"></script>
-    </body>
+        <div class="sec3-box">
+          <div class="main-Gallery">
+            <div class="gallery1">
+              <img
+                src="../img/Gallery/audience1.jpg"
+                alt="img1"
+                id="main-img1"
+                style="max-width: 350px"
+              />
+              <img
+                src="../img/Gallery/audience2.jpg"
+                alt="img2"
+                id="main-img2"
+                style="max-width: 350px"
+              />
+              <img
+                src="../img/Gallery/Gallery3.jpg"
+                alt="img3"
+                id="main-img3"
+                style="max-width: 350px"
+              />
+            </div>
+            <div class="gallery2">
+              <img
+                src="../img/Gallery/Gallery1.jpg"
+                alt="img4"
+                id="main-img4"
+                style="max-width: 350px"
+              />
+              <img
+                src="../img/Gallery/Gallery2.jpg"
+                alt="img5"
+                id="main-img5"
+                style="max-width: 350px"
+              />
+              <img
+                src="../img/Gallery/Gallery5.jpg"
+                alt="img6"
+                id="main-img6"
+                style="max-width: 350px"
+              />
+            </div>
+            <div class="gallery1">
+              <img
+                src="../img/Gallery/audience1.jpg"
+                alt="img7"
+                id="main-img7"
+                style="max-width: 350px"
+              />
+              <img
+                src="../img/Gallery/audience2.jpg"
+                alt="img8"
+                id="main-img8"
+                style="max-width: 350px"
+              />
+              <img
+                src="../img/Gallery/Gallery4.jpg"
+                alt="img9"
+                id="main-img9"
+                style="max-width: 350px"
+              />
+            </div>
+          </div>
+          <div class="rolling">
+            <div class="rollingbanner">
+              <div class="wrap">
+                <div class="banner-title">Notice</div>
+                <ul>
+                  <li class="current">
+                    <a href="#">창원락페스티벌2022 티켓 예매 상세 안내</a>
+                  </li>
+                  <li class="next">
+                    <a href="#">창원락페스티벌2022 티켓 예매 일정 안내</a>
+                  </li>
+                  <li><a href="#">창원락페스티벌2022 통합 FAQ</a></li>
+                  <li><a href="#">페스티벌 SNS 인증샷 이벤트 안내</a></li>
+                  <li class="prev">
+                    <a href="#">창원락페스티벌2022 무대 참가자를 모집합니다.</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="rollingbanner2">
+              <div class="banner-title"></div>
+              <div class="wrap">
+                <div class="banner-title">News</div>
+                <ul>
+                  <li class="current2">
+                    <a href="#">창원락페스티벌2022 티켓 완판!</a>
+                  </li>
+                  <li class="next2">
+                    <a href="#"
+                      >창원시가 주관하는 음악 축제, 창원락페스티벌2022</a
+                    >
+                  </li>
+                  <li><a href="#">창원락페스티벌2022, 어떻게 될까</a></li>
+                  <li>
+                    <a href="#">한국을 넘어 세계로...창원락페스티벌의 미래</a>
+                  </li>
+                  <li class="prev2">
+                    <a href="#"
+                      >[창원락페스티벌2022] 백예린 밴드 The Volunteers 최종
+                      라인업 합류</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" style="background-color: #0a1035">
+      <div class="containter">
+        <div class="footer-box">
+          <div class="footer1">
+            <h3>2022 CHANGWON<br />ROCK FESTIVAL</h3>
+            <p>2022. 9. 23 Fri. - 25 Sun.</p>
+            <br />
+            <p>&copy; since 2022</p>
+          </div>
+          <div class="footer2">
+            <h3>CONTACT</h3>
+            <p>문의전화<br />1500-1666</p>
+            <p>창원락페스티벌 소식 받기🔻</p>
+            <form action="#">
+              <input
+                class="inputbox"
+                name="email"
+                placeholder=" 이메일을 입력하세요."
+                required
+              />
+              <button type="button" class="email-submit" onclick="clickFunc();">
+                전송
+              </button>
+            </form>
+          </div>
+          <div class="footer3">
+            <h3>SNS</h3>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script>
+      document
+        .getElementsByClassName("email")
+        .addEventListener("click", clickFunc);
+      function clickFunc() {
+        let email = document.getElementsByName("email")[0].value;
+        if (email === "") {
+          alert("이메일을 입력해주세요.");
+        } else {
+          alert(
+            "이메일 입력이 완료되었습니다. 창원 락 페스티벌의 소식을 받아보실 수 있습니다."
+          );
+        }
+      }
+    </script> -->
+    <script src="./js/nav.js"></script>
+    <script src="./js/index_slide.js"></script>
+    <script src="./js/page.js"></script>
+    <script src="./js/rolling.js"></script>
+    <script src="./js/rolling2.js"></script>
+    <script src="./js/tab.js"></script>
+  </body>
 </html>

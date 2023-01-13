@@ -563,12 +563,12 @@ nav
         border-right: 1px solid lightgray;;
     }
 
-    .tab-content > .tab-h3
+    .tab-content .tab-h3
     {
         width: 100%;
     }
 
-    .tab-content > .tab-h3 > h3
+    .tab-content .tab-h3 h3
     {      
         width: 100%;
         color: white;
@@ -579,6 +579,10 @@ nav
             rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)
         ), url("../img/bg/bg4.jpg");
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
     }
 
     .tab-content > .tab-h5 > h5
@@ -922,19 +926,31 @@ nav
    /*Location*/
    .map-wrap
 {
-    justify-content: center;
     display: flex;
 }
 
 .map-wrap > .map-img >img
 {
-    width: 750px;
-    height: 450px;
+    width: 550px;
+    height: 400px;
     margin: 0px 40px 60px 0;
 }
-.map-wrap > .map-text h2
+.map-wrap > .map-text p
 {
     margin: 20px 0;
+}
+
+.sponsor-brand-inner
+{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sponsor-brand-inner img 
+{
+    max-width: 300px;
+    margin-left: 20px;
 }
 
 
