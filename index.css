@@ -629,7 +629,7 @@ nav
      /*Line-Up*/
      .img-box2 > img
      {   
-         
+         width: 100%;
          display: flex;
      }
      .tab2-media
