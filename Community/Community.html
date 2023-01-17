@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <script>
+      AOS.init();
+    </script>
+    <div class="container">
+      <div class="header">
+        <nav>
+          <div class="nav-text-logo">CHANGWON<br />ROCK FESTIVAL</div>
+          <div class="navbar">
+            <ul class="uls">
+              <li id="num1">
+                <a href="../index.html">HOME</a>
+              </li>
+              <li id="num2">
+                <a href="../Information/Introduce.html">INFORMATION</a>
+                <ul class="submenu">
+                  <li>
+                    <a href="../Information/Introduce.html#tab-1">Introduce</a>
+                  </li>
+                  <li>
+                    <a href="../Information/Introduce.html#tab-2">Line-Up</a>
+                  </li>
+                  <li>
+                    <a href="../Information/Introduce.html#tab-3">Buy Ticket</a>
+                  </li>
+                  <li>
+                    <a href="../Information/Introduce.html#tab-4">Location</a>
+                  </li>
+                  <li>
+                    <a href="../Information/Introduce.html#tab-5">Sponsor</a>
+                  </li>
+                </ul>
+              </li>
+              <li id="num3">
+                <a href="../Program/Timetable.html">PROGRAM</a>
+                <ul class="submenu">
+                  <li><a href="../Program/Timetable.html">Timetable</a></li>
+                </ul>
+              </li>
+              <li id="num4">
+                <a href="#">COMMUNITY</a>
+                <ul class="submenu">
+                  <li>
+                    <a href="../Community/Community.html#tab-1">Gallery</a>
+                  </li>
+                  <li><a href="../Community/Community.html#tab-2">News</a></li>
+                  <li>
+                    <a href="../Community/Community.html#tab-3">Notice</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="section1-1">
+        <div class="container">
+          <div class="main-text"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section2-1">
+      <div class="container">
+        <div class="allWrap">
+          <div class="tabBox">
+            <p class="tab-link current" data-tab="tab-1" style="width: 33%">
+              <a href="#tab-1">Gallery</a>
+            </p>
+            <p class="tab-link" data-tab="tab-2" style="width: 33%">
+              <a href="#tab-2">News</a>
+            </p>
+            <p class="tab-link" data-tab="tab-3" style="width: 33%">
+              <a href="#tab-3">Notice</a>
+            </p>
+          </div>
+          <div id="tab-1" class="tab-content current">
+            <div class="tab-h3"><h3>GALLERY</h3></div>
+            <div id="Gallery-modal"></div>
+            <!-- <h1 class="btn">MODAL_1</h1> -->
+            <img
+              src="../img/Gallery/audience1.jpg"
+              alt="img1"
+              id="img1"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/audience1.jpg"
+                  alt="img1"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+            <img
+              src="../img/Gallery/audience2.jpg"
+              alt="img2"
+              id="img2"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/audience2.jpg"
+                  alt="img2"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+            <img
+              src="../img/Gallery/Gallery1.jpg"
+              alt="img3"
+              id="img3"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/Gallery1.jpg"
+                  alt="img3"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+            <!-- <h1 class="btn">MODAL_1</h1> -->
+            <img
+              src="../img/Gallery/Gallery2.jpg"
+              alt="img4"
+              id="img4"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/Gallery2.jpg"
+                  alt="img4"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+            <!-- <h1 class="btn">MODAL_1</h1> -->
+            <img
+              src="../img/Gallery/Gallery3.jpg"
+              alt="img5"
+              id="img5"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/Gallery3.jpg"
+                  alt="img5"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+            <!-- <h1 class="btn">MODAL_1</h1> -->
+            <img
+              src="../img/Gallery/Gallery4.jpg"
+              alt="img6"
+              id="img6"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/Gallery4.jpg"
+                  alt="img6"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+            <!-- <h1 class="btn">MODAL_1</h1> -->
+            <img
+              src="../img/Gallery/Gallery5.jpg"
+              alt="img7"
+              id="img7"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/Gallery5.jpg"
+                  alt="img7"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+            <!-- <h1 class="btn">MODAL_1</h1> -->
+            <img
+              src="../img/Gallery/Gallery6.jpg"
+              alt="img8"
+              id="img8"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/Gallery6.jpg"
+                  alt="img8"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+            <!-- <h1 class="btn">MODAL_1</h1> -->
+            <img
+              src="../img/Gallery/Gallery7.jpg"
+              alt="img9"
+              id="img9"
+              class="btn"
+              style="max-width: 400px"
+            />
+            <div class="modal-overlay">
+              <div class="modal-window">
+                <span class="close">&times;</span>
+                <img
+                  src="../img/Gallery/Gallery7.jpg"
+                  alt="img9"
+                  style="max-width: 900px"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="tab-2" class="tab-content">
+            <div class="tab-h3"><h3>NEWS</h3></div>
+            <div class="table-box">
+              <div class="jb-table">
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-head">제목</li>
+                  <li class="jb-table-cell table-date t-head">작성일</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title">여기에 제목이 들어갑니다</li>
+                  <li class="jb-table-cell table-date">2038-07-29</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title">여기에 제목이 들어갑니다</li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title">여기에 제목이 들어갑니다</li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title">여기에 제목이 들어갑니다</li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title">여기에 제목이 들어갑니다</li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title">여기에 제목이 들어갑니다</li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title">여기에 제목이 들어갑니다</li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title">여기에 제목이 들어갑니다</li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title table-end">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date table-end">2038-07-28</li>
+                </ul>
+              </div>
+              <div id="paging">
+                <a href="#" class="prev">PREV</a>
+                <a class="numbox" href="/1"><span class="selected">1</span></a>
+                <a class="numbox" href="/2"><span>2</span></a>
+                <a class="numbox" href="/3"><span>3</span></a>
+                <a class="numbox" href="/4"><span>4</span></a>
+                <a class="numbox" href="/5"><span>5</span></a>
+                <a class="numbox" href="/5"><span>6</span></a>
+                <a class="numbox" href="/6"><span>7</span></a>
+                <a class="numbox" href="/7"><span>8</span></a>
+                <a class="numbox" href="/8"><span>9</span></a>
+                <a class="numbox" href="/9"><span>10</span></a>
+                <a class="numbox" href="/2"></a>
+                <a href="/2" class="next">NEXT</a>
+              </div>
+            </div>
+          </div>
+          <div id="tab-3" class="tab-content">
+            <div class="tab-h3"><h3>NOTICE</h3></div>
+            <div class="table-box">
+              <div class="jb-table">
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-head">제목</li>
+                  <li class="jb-table-cell table-date t-head">작성일</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date">2038-07-29</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date">2038-07-28</li>
+                </ul>
+                <ul class="jb-table-row">
+                  <li class="jb-table-cell title t-body table-end">
+                    여기에 제목이 들어갑니다
+                  </li>
+                  <li class="jb-table-cell table-date table-end">2038-07-28</li>
+                </ul>
+              </div>
+              <div id="paging">
+                <a href="#" class="prev">PREV</a>
+                <a class="numbox" href="/1"><span class="selected">1</span></a>
+                <a class="numbox" href="/2"><span>2</span></a>
+                <a class="numbox" href="/3"><span>3</span></a>
+                <a class="numbox" href="/4"><span>4</span></a>
+                <a class="numbox" href="/5"><span>5</span></a>
+                <a class="numbox" href="/5"><span>6</span></a>
+                <a class="numbox" href="/6"><span>7</span></a>
+                <a class="numbox" href="/7"><span>8</span></a>
+                <a class="numbox" href="/8"><span>9</span></a>
+                <a class="numbox" href="/9"><span>10</span></a>
+                <a class="numbox" href="/2"></a>
+                <a href="/2" class="next">NEXT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" style="background-color: #0a1035">
+      <div class="containter">
+        <div class="footer-box">
+          <div class="footer1">
+            <h3>2022 CHANGWON<br />ROCK FESTIVAL</h3>
+            <p>2022. 9. 23 Fri. - 25 Sun.</p>
+            <br />
+            <p>&copy; since 2022</p>
+          </div>
+          <div class="footer2">
+            <h3>CONTACT</h3>
+            <p>문의전화<br />1500-1666</p>
+            <p>창원락페스티벌 소식 받기🔻</p>
+            <form action="#">
+              <input
+                class="inputbox"
+                name="email"
+                placeholder=" 이메일을 입력하세요."
+                required
+              />
+              <button type="button" class="email-submit" onclick="clickFunc();">
+                전송
+              </button>
+            </form>
+          </div>
+          <div class="footer3">
+            <h3>SNS</h3>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/tab.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/page.js"></script>
+    <script src="../js/modal.js"></script>
+  </body>
+</html>

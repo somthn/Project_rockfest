@@ -75,18 +75,18 @@
 }
 .container--1
 {
-    background: url(../../img/buy-ticket/t-2.jpg);
+    background: url(../img/buy-ticket/t-2.jpg);
     
 }
 
 .container--2
 {
-    background: url(../../img/buy-ticket/t-1.jpg);
+    background: url(../img/buy-ticket/t-1.jpg);
 }
 
 .container--3
 {
-    background: url(../../img/buy-ticket/t-4.jpg);
+    background: url(../img/buy-ticket/t-4.jpg);
 }
 
 .t-container::before,
